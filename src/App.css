@@ -24,9 +24,41 @@
   color: white;
 }
 
+#input {
+  width: 100%;
+  height: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 .App-link {
   color: #61dafb;
 }
+
+input {
+  width: 200px;
+  height: 70px;
+  border: black 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+button {
+  width: 200px;
+  height: 70px;
+  border: black 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  color: cornflowerblue;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {

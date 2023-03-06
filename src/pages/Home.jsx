@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery , gql} from '@apollo/client';
-
+import { Link } from 'react-router-dom';
 
 
 const Query_list_of_countries = gql `
@@ -33,6 +33,8 @@ export const Home = () => {
         
     <h1> List of Countries</h1> 
        <div className='Countrieslist'>
+
+        <Link to="/search"> Search for Countries</Link>
 { loading && <h4> Data is loading...</h4>}
 { error && <h4> {error.message}</h4>}
 { data && data.countries.map((country , key) => { return <div> 
